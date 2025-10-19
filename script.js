@@ -34,7 +34,7 @@ function actualizarCarrito() {
     items.appendChild(div);
     total += p.precio * p.cantidad;
   });
-  totalTexto.textContent = `Total: $${total.toFixed(2)}`;
+  totalTexto.textContent = `Total: Bs${total.toFixed(2)}`;
   contador.textContent = `(${carrito.length})`;
 }
 
