@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cafe Fusion</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Cafe Fusion</h1>
+    <nav>
+      <ul>
+        <li><a href="#menu">Menú</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+        <li><a href="#carrito">Carrito 🛒 <span id="contador">(0)</span></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="menu" class="menu">
+    <h2>Menú de Cafés</h2>
+    <div class="productos">
+      <div class="producto">
+        <img src="img/americano.jpg" alt="Café Americano">
+        <h3>Café Americano</h3>
+        <p class="precio">10.00</p>
+        <button>Agregar al carrito</button>
+      </div>
+      <div class="producto">
+        <img src="img/capuchino.jpg" alt="Capuchino">
+        <h3>Capuchino</h3>
+        <p class="precio">12.00</p>
+        <button>Agregar al carrito</button>
+      </div>
+      <div class="producto">
+        <img src="img/lattevainilla.jpg" alt="Latte de Vainilla">
+        <h3>Latte de Vainilla</h3>
+        <p class="precio">13.00</p>
+        <button>Agregar al carrito</button>
+      </div>
+      <div class="producto">
+        <img src="img/moca.jpg" alt="Moca">
+        <h3>Moca</h3>
+        <p class="precio">14.00</p>
+        <button>Agregar al carrito</button>
+      </div>
+      <div class="producto">
+        <img src="img/caramelo.jpg" alt="Latte de Caramelo">
+        <h3>Latte de Caramelo</h3>
+        <p class="precio">13.00</p>
+        <button>Agregar al carrito</button>
+      </div>
+      <div class="producto">
+        <img src="img/espresso.jpg" alt="Espresso Doble">
+        <h3>Espresso Doble</h3>
+        <p class="precio">11.00</p>
+        <button>Agregar al carrito</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="carrito" class="carrito">
+    <h2>Tu Carrito 🛒</h2>
+    <div id="items"></div>
+    <p id="total">Total: Bs0.00</p>
+    <button id="vaciar">Vaciar Carrito</button>
+  </section>
+
+  <section id="contacto" class="contacto">
+    <h2>Contáctanos</h2>
+    <p>📞 <strong>+591 78332253</strong></p>
+    <div class="redes">
+      <a href="https://www.instagram.com/cafe_fusion_cf?igsh=MWNuMzQ1dGR0cnVzZA==" target="_blank">🌸 Instagram</a>
+      <a href="https://www.facebook.com/cafefusion" target="_blank">💗 Facebook</a>
+      <a href="https://www.tiktok.com/@cafefusion7?_t=ZM-90flxuMZyIu&_r=1" target="_blank">🎀 TikTok</a>
+    </div>
+  </section>
+
+  <!-- Botón flotante de WhatsApp -->
+  <a href="https://wa.me/59178332253" class="whatsapp" target="_blank">
+    💬
+  </a>
+
+  <footer>
+    <p>© 2025 Cafe Fusion. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
