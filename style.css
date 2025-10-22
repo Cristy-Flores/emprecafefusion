@@ -16,7 +16,7 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  color: white;
+  color: rgb(0, 0, 0);
   position: relative;
   border-bottom: 3px solid #f3b4cc;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
